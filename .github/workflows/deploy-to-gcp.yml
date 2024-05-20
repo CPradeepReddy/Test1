@@ -1,10 +1,9 @@
 name: Deploy to GCP
 
 on:
-  push:
+  pull_request:
     branches:
-      - test-gcp-deployment
-      - test-gcp-deployment2
+      - '**'
 
 jobs:
   build:
