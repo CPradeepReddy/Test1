@@ -1,0 +1,14 @@
+{
+  "name": "csbc-1040",
+  "version": "1.0.0",
+  "description": "This repository contains assignments and the final project for this course. You will have access to all the assignments when the course starts. While you may begin working on your assignments at any time you wish, the assignments are intended to reinforce learning from the preceding Module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.3.0"
+  }
+}
