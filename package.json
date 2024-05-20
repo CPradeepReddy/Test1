@@ -4,8 +4,8 @@
   "description": "This repository contains assignments and the final project for this course. You will have access to all the assignments when the course starts. While you may begin working on your assignments at any time you wish, the assignments are intended to reinforce learning from the preceding Module.",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "lint": "eslint ."
+    "test": "jest"
+    
   },
   "author": "",
   "license": "ISC",
