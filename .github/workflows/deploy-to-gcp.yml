@@ -22,6 +22,7 @@ jobs:
         
       - name: Build static site
         run: npm run build
+        working-directory: https://github.com/CPradeepReddy/Test1/tree/test-gcp-deployment/samples/counter-app
         
       - name: Archive production artifacts
         uses: actions/upload-artifact@v2
