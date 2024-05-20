@@ -20,9 +20,7 @@ jobs:
       - name: Install dependencies
         run: npm install
         
-      - name: Build static site
-        run: npm run build
-        working-directory: samples/counter-app
+     
         
       - name: Archive production artifacts
         uses: actions/upload-artifact@v2
